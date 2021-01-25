@@ -8,7 +8,7 @@
         "colors": {
         "primary":"#1565c0",
         "secundary":"#673ab7",
-        "mainBg":"#673ab7",
+        "mainBg":"#1565c0",
         "contrastText":"#ffffff",
         "wrong":"#673ab7",
         "sucess":"#673ab7"
