@@ -4,7 +4,7 @@ import Widget from '../src/components/Widget/index'
 import Footer from '../src/components/Footer/index'
 import GitHubCorner from '../src/components/GitHubCorner/index'
 import QuizBackground from '../src/components/QuizBrackground/index'
-
+import QuizLogo from '../src/components/QuizLogo/index'
 
 //const Title = styled.h1`
 //font-size: 50px;
@@ -41,12 +41,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <QuizLogo></QuizLogo>
         <Widget>
           <Widget.Header>
             <h1>Python Quizzes</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar</p>
+            <p>Teste os seus conhecimentos sobre Python</p>
           </Widget.Content>
           
         </Widget>
